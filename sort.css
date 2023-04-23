@@ -1,0 +1,16 @@
+#chart {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.sorted {
+  fill: green;
+}
+
+/* CSS styles for selected bars */
+.compare {
+  fill: red;
+}
+
+

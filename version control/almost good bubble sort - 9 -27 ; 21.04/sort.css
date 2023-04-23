@@ -1,0 +1,38 @@
+/* CSS styles for the bars representing array elements */
+.bar {
+    display: inline-block;
+    margin-right: 2px;
+    width: 20px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+/* CSS styles for selected bars */
+.selected {
+    background-color: red;
+}
+/* CSS styles for comparison values */
+.comparison {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.bar.sorted {
+    background-color: red;
+}
+
+.speed-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .speed-container label {
+    margin-right: 10px;
+  }
+  
+  .speed-value {
+    margin-right: 10px;
+    font-weight: bold;
+  }
